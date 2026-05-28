@@ -1,0 +1,10 @@
+Aufgabe 1
+Im der PCAP Datei für TCP sieht man die Nachricht in Frame 9. Dieser Frame hat Sequenznummer 1 und Acknowledgmentnummer 1. Das bedeutet, dass der Client Byte 1 vom Server erwartet und Bytes 1-11 sendet. In Frame 10 bestätigt der Server, dass die Nachricht angekommen ist (Sequenznummer 1 und Acknowledgmentnummer 12, also Daten bis Byte 12 sind angekommen).
+Bei UDP hingegen gibt es keinen Frame, in dem der Server die Nachricht bestätigt und keine Sequenzierung.
+Bei beiden Protokollen gibt es eine Prüfsumme (0xfe33 und 0xfe25).
+
+Aufgabe 5
+Nach IEEE 802.3
+Code: 0110 1001 0101 10
+
+
